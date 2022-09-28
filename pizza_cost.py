@@ -28,7 +28,7 @@ def main():
     total = cost + tax
 
     # display the calculation back to the user
-    print("Your pizza will cost ${}!".format(total))
+    print("Your pizza will cost ${:,.2f}!".format(total))
 
 
 if __name__ == "__main__":
